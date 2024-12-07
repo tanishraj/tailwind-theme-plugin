@@ -23,10 +23,10 @@ postcss([tailwindcss(tailwindConfig)])
   .then(result => {
     // result.css is now final CSS without unresolved directives
     fs.writeFileSync(
-      path.resolve(__dirname, 'generatedComponents.js'),
+      path.resolve(__dirname, 'generatedCss.js'),
       `export default ${JSON.stringify(result.css)};`,
     );
-    console.log('Build complete: generatedComponents.js created');
+    console.log('Build complete: generatedCss.js created');
   })
   .catch(err => {
     console.error('Build failed:', err);
