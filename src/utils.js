@@ -1,4 +1,4 @@
-export function generateThemeStyles(themes) {
+export default function generateThemeStyles(themes) {
   const { light, dark } = themes;
 
   const createVariables = theme =>
