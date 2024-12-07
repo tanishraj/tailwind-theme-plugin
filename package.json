@@ -1,7 +1,7 @@
 {
   "name": "tailwind-theme-plugin",
-  "version": "0.1.1",
-  "main": "index.js",
+  "version": "0.1.2",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
     "build": "node src/build.js"
