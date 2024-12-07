@@ -1,14 +1,14 @@
 module.exports = {
   themes: {
     light: {
-      primary: '#1da1f2',
-      secondary: '#657786',
+      primary: '#FF0000',
+      secondary: '#FFFF00',
       accent: '#FAB1CE',
       neutral: '#F5F8FA',
     },
     dark: {
-      primary: '#0D5899',
-      secondary: '#3E5467',
+      primary: '#00d7c0',
+      secondary: '#ff00d3',
       accent: '#F760A9',
       neutral: '#15202B',
     },

@@ -1,6 +1,6 @@
 import tailwindPlugin from "tailwindcss";
 import themeConfig from "./themeConfig";
-import { generateThemeStyles } from "./utils";
+import generateThemeStyles from "./utils";
 import generatedCss from "./generatedCss";
 
 export default (options = {}) =>

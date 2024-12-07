@@ -1,5 +1,5 @@
 export default {
-  content: ['./src/plugins/components/*.css'],
+  content: ['./src/components/*.css'],
   darkMode: ['selector', '[data-theme="dark"]'],
   theme: {
     extend: {},
