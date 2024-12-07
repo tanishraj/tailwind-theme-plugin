@@ -1,7 +1,7 @@
-import tailwindPlugin from "tailwindcss";
-import themeConfig from "./themeConfig";
-import generateThemeStyles from "./utils";
-import generatedCss from "./generatedCss";
+import tailwindPlugin from "tailwindcss/plugin";
+import themeConfig from "./themeConfig.js";
+import generateThemeStyles from "./utils.js";
+import generatedCss from "./generatedCss.js";
 
 export default (options = {}) =>
   tailwindPlugin(function ({ addBase, addComponents }) {
