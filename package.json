@@ -1,0 +1,11 @@
+{
+  "name": "tailwind-theme-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tanishraj/tailwind-theme-plugin.git",
+  "author": "Tanish Raj <learn.tanishraj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
